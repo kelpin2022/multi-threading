@@ -98,7 +98,7 @@ class User extends Thread {
 				Resource resource = resourceCoordinator.get();
 				resource.use(userID);
 				resourceCoordinator.put(resource);
-				sleep(3000);
+				sleep(4000);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
